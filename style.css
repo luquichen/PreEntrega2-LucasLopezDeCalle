@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 ul{
     list-style: none;
@@ -22,4 +23,40 @@ a{
 nav ul li{
     margin-left: 12px;
     font-size: 18px;
+}
+
+.hero{
+    background-image: url(img/heroimg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    min-height: 40vh;
+    max-height: 65vh;
+}
+.hero h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.descip{
+    max-width: 60vw ;
+}
+
+.servicios__img{
+    width: 180px;
+    height: 160px;
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*PARA SMARTFONE*/
+
+@media (max-width: 768px){
+    .descip{
+        max-width: 90%;
+    }
 }
