@@ -83,10 +83,43 @@ footer i{
 .about img{
     width: 400px;
 }
-.hisotira p{
-    
-} 
+.usuarios{
+    margin-top: 80px;
+    height: 80px;
+    color: #ff9800;
+    min-height: 80vh;
+}
 
+.caja{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+    margin: 10px 20px;
+}
+.caja h4{
+    font-weight: 600;
+    padding: 40px;
+   
+}
+.caja__top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.caja__top img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 50px;
+    
+}
+
+.caja__comentario{
+    width: 100%;
+    padding: 0 50px;
+
+}
 /*MEDIA QUERIES*/
 
 /*PARA SMARTFONE*/
