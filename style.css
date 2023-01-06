@@ -76,9 +76,15 @@ footer i{
     color: white;
    
 }
+.about h2{
+    color: #ff9800;
+}
 
-.hisotira h2{
-    background-color: #8d8d8d;
+.about img{
+    width: 400px;
+}
+.hisotira p{
+    
 } 
 
 /*MEDIA QUERIES*/
