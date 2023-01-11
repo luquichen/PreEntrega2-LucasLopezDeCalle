@@ -53,7 +53,11 @@ nav ul li {
   margin-left: 12px;
   font-size: 18px;
 }
-
+nav ul li:hover {
+   color: rgb(220, 206, 187);
+   border-bottom: 1px solid gray;
+  }
+  
 .hero {
   background-image: url(img/img2.jpg);
   background-position: center;
@@ -142,6 +146,10 @@ footer i:hover {
     margin-top: 20px;
     font-size: 24px;
     text-transform: uppercase;
+}
+.card img{
+    min-width: 200px;
+    height: 80%;
 }
 .musetras{
     margin-top: 50px;
