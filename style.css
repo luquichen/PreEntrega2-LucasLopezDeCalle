@@ -1,3 +1,7 @@
+:root{
+    --color-primario: #f5b24d;
+    --color-resaltado: #ff9800;
+}
 body{
     background-color: rgb(249, 246, 241)
 }
@@ -7,6 +11,8 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
+
+/*STYLE GENERALES*/
 ul{
     list-style: none;
 }
@@ -14,17 +20,31 @@ ul{
 a{
     text-decoration: none;
 }
+p{
+    font-size: 32px;
+}
+h3{
+    font-size: 60px;
+}
 
+/*STYLE CONTENEDOR*/
+
+.container{
+    text-align: center;
+}
 .contenedor{
     margin: 0px 100px;
 }
+
+
 .logo{
     font-size: 40px;
     letter-spacing: 5px;
     font-weight: 500;
 }
+
 nav{
-    background-color: #f5b24d ;
+    background-color: var(--color-primario) ;
     
 }
 nav ul li {
@@ -40,33 +60,26 @@ nav ul li {
     height: 60vh;
     min-height: 40vh;
     max-height: 65vh;
+    text-align: center;
 }
 .hero h2{
     font-size: 42px;
     font-weight: bold;
-    background-color: #f5b24d;
+    background-color: var(--color-primario);
 }
 
-.descip{
-    max-width: 60vw ;
-}
 
 .servicios__img{
    height: 160px;
 }
 
 .resaltado{
-    color: #ff9800;
+    color: var(--color-resaltado)
 }
 
-.carousel-caption h3{
-    font-size: 50px;
-}
-.carousel-caption p{
-    font-size: 22px;
-}
 .carousel-inner img {
     width: 120%;
+    min-height: 250px;
 }
 
 .galeria .col-lg-4{
@@ -79,8 +92,8 @@ nav ul li {
 }
 footer{
     margin-top: 50px;
-     background-color: black;
-    color: #ff9800;
+    background-color: black;
+    color: var(--color-resaltado);
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -88,24 +101,30 @@ footer{
 }
 
 footer  a i{
-    color: #ff9800;
+    color: var(--color-resaltado);
     letter-spacing: 20px;
 }
 
 footer i:hover{
     color: white;
 }
+
+.about .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
 .about h2{
-    color: #ff9800;
+    color: var(--color-resaltado);
 }
 
 .about img{
-    width: 400px;
+    margin-top: 50px;
+    width: 100%;
 }
 .usuarios{
     margin-top: 80px;
     height: 80px;
-    color: #ff9800;
+    color: var(--color-resaltado);
     min-height: 80vh;
 }
 
@@ -151,31 +170,7 @@ footer i:hover{
 
 
 
-h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
   
-  p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  @media (max-width: 600px) {
-    .container {
-      padding: 10px;
-    }
-    
-    h1 {
-      font-size: 28px;
-    }
-    
-    p {
-      font-size: 16px;
-    }
-  }
 /*MEDIA QUERIES*/
 
 /*PARA SMARTFONE*/
@@ -192,5 +187,10 @@ h1 {
     .carousel-inner img {
         width: 2200px;
     }
-
+    .carousel-caption h3{
+        font-size: 40px;
+    }
+    .carousel-caption p{
+        font-size: 22px;
+    }
 }
