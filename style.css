@@ -32,9 +32,6 @@ nav ul li {
     font-size: 18px;
 }
 
-.nav__contenedor{
-
-}
 .hero{
     background-image: url(img/img2.jpg);
     background-position: center;
@@ -62,19 +59,41 @@ nav ul li {
     color: #ff9800;
 }
 
-footer{
-    margin-top: 80px;
-    
-    align-items: center;
-    text-align: center;
-    padding-top: 20px 20px;
-    background-color: #f5b24d;
+.carousel-caption h3{
+    font-size: 50px;
+}
+.carousel-caption p{
+    font-size: 22px;
+}
+.carousel-inner img {
+    width: 120%;
 }
 
-footer i{
+.galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 10px;
+}
+.galeria img{
+    width: 100%;
+    height: 250px;
+}
+footer{
+    margin-top: 50px;
+     background-color: black;
+    color: #ff9800;
+    text-align: center;
     font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+footer  a i{
+    color: #ff9800;
+    letter-spacing: 20px;
+}
+
+footer i:hover{
     color: white;
-   
 }
 .about h2{
     color: #ff9800;
@@ -123,6 +142,40 @@ footer i{
     padding: 0 10px;
 
 }
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 28px;
+    }
+    
+    p {
+      font-size: 16px;
+    }
+  }
 /*MEDIA QUERIES*/
 
 /*PARA SMARTFONE*/
@@ -131,4 +184,13 @@ footer i{
     .descip{
         max-width: 90%;
     }
+
+    .carousel-inner h3 {
+        font-size: 30px;
+
+    }
+    .carousel-inner img {
+        width: 2200px;
+    }
+
 }

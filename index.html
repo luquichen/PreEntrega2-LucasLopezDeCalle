@@ -66,55 +66,96 @@
         </p>
     </section>
 
-    <section class="servicios container mt-5 pt-5">
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/satick bar.png" alt="Los Angeles" class="d-block" ">
+                <div class=" carousel-caption">
+                <h3>Venta</h3>
+                <p>De yerba mate y otros productos derivados de la yerba, como tés y infusiones</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/satick bar.png" alt="Chicago" class="d-block">
+            <div class="carousel-caption">
+                <h3>Distribución</h3>
+                <p>De yerba mate y otros productos a tiendas y minoristas!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/satick bar.png" alt="New York" class="d-block">
+            <div class="carousel-caption">
+                <h3>Servicio</h3>
+                <p>De suscripción mensual para recibir paquetes regulares de yerba mate y otros productos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+
+
+    <section class="galeria container">
+        <div class="container descip container mx-auto text-center pt-5">
+            <h1 class="mt-2 p-3 fs-2 border-bottom border-3">Por qué elegirnos</h1>
+            <p class="p-3 fs-4">Ilex es una empresa especializada en la venta de yerba mate de alta calidad. Ofrecemos una amplia variedad de
+                opciones para satisfacer todos los gustos, desde yerbas orgánicas hasta opciones con sabores y mezclas
+                únicas. Además, nuestra yerba es cultivada de forma responsable y sostenible, lo que garantiza un producto
+                fresco y saludable.</p>
+            <p class="p-3 fs-4">Además, en Ilex nos esforzamos por brindar un excelente servicio al cliente. Estamos siempre dispuestos a
+                responder cualquier pregunta o inquietud que pueda tener, y nos aseguramos de que su experiencia de compra
+                sea rápida y fácil.</p>
+            
+        </div>
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center ">
-                <img src="img/venta.svg" alt="Venta" class="servicios__img">
-                <div>
-                    <h3 class="fs-2 mt-4 px-4 pb-1">Venta:</h3>
-                    <p class="px-4">De yerba mate y otros productos derivados de la yerba, como tés y infusiones.</p>
-                </div>
+            <div class="col-lg-4">
+                <img src="img/img1.jpg" alt="">
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center ">
-                <img src="img/transportblue.svg" alt="Venta" class="servicios__img">
-                <div>
-                    <h3 class="fs-2 mt-4 px-4 pb-1">Distribución:</h3>
-                    <p class="px-4">De yerba mate y otros productos a tiendas y minoristas</p>
-                </div>
+            <div class="col-lg-4">
+                <img src="img/img1.jpg" alt=""></div>
+            <div class="col-lg-4">
+                <img src="img/img1.jpg" alt="">
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center ">
-                <img src="img/suscript.svg" alt="Venta" class="servicios__img">
-                <div>
-                    <h3 class="fs-2 mt-4 px-4 pb-1">Servicio:</h3>
-                    <p class="px-4">De suscripción mensual para recibir paquetes regulares de yerba mate y otros
-                        productos.</p>
-                </div>
+            <div class="col-lg-4">
+                <img src="img/img1.jpg" alt="">
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center align-items-center ">
-                <img src="img/capablue.svg" alt="Venta" class="servicios__img">
-                <div>
-                    <h3 class="fs-2 mt-4 px-4 pb-1">Asesoramiento:</h3>
-                    <p class="px-4">Asesoramiento y apoyo a emprendedores interesados ​​en iniciar su propia empresa de
-                        yerba mate o productos derivados.</p>
-                </div>
+            <div class="col-lg-4">
+                <img src="img/img1.jpg" alt="">
             </div>
+            <div class="col-lg-4">
+                <img src="img/img1.jpg" alt="">
+            </div>
+        </div>
+        <div class="container descip container mx-auto text-center pt-5">
+        <p class="p-3 fs-4">En resumen, elegir a Ilex significa elegir yerba de alta calidad, cultivada de forma responsable, y con un
+            servicio al cliente excepcional.</p>
         </div>
     </section>
-
-    <footer class="container-fluid  " data-bs-theme="dark">
-        <div class="row ">
-            <div class="col-4 d-flex justify-content-evenly align-items-center">
-                <a href=""><i class="bi bi-facebook"></i></a>
-            </div>
-            <div class="col-4 d-flex justify-content-around align-items-center">
-                <a href=""><i class="bi bi-twitter"></i></a>
-            </div>
-            <div class="col-4 d-flex justify-content-around align-items-center">
-                <a href=""><i class="bi bi-whatsapp"></i></a>
-            </div>
+    <footer>
+        <p>Cooperativa Ilex - Argentina - 2023</p>
+        <div class="redes">
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
         </div>
-        <h4 class="mt-3">Cooperativa Ilex - Argentina - 2023</h4>
     </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
