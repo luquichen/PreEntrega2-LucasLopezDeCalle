@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(249, 246, 241);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*STYLE GENERALES*/
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 32px;
+}
+
+h2 {
+  color: #ff9800;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+/*STYLE CONTENEDOR*/
+.container {
+  text-align: center;
+}
+
+.contenedor {
+  margin: 0px 100px;
+}
+
+nav {
+  background-color: #f5b24d;
+}
+nav .logo {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+nav ul li {
+  margin-left: 12px;
+  font-size: 18px;
+}
+nav ul li:hover {
+  color: rgb(249, 246, 241);
+  border-bottom: 1px solid gray;
+}
+
+.hero {
+  background-image: url(img/img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  min-height: 40vh;
+  max-height: 65vh;
+  text-align: center;
+}
+.hero h2 {
+  font-weight: bold;
+  background-color: #f5b24d;
+}
+
+.servicios__img {
+  height: 160px;
+}
+
+.resaltado {
+  color: #ff9800;
+}
+
+.carousel-inner img {
+  width: 120%;
+  min-height: 250px;
+}
+
+.galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 10px;
+}
+
+.galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: rgb(12, 12, 12);
+  color: #ff9800;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+footer a i {
+  color: #ff9800;
+  letter-spacing: 20px;
+}
+footer i:hover {
+  color: white;
+}
+
+.about .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+.about .col-lg-4 img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.contacto {
+  min-height: 68vh;
+  margin-top: 50px;
+}
+.contacto img {
+  width: 100%;
+}
+
+.clase h3 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 50px;
+  background-color: #f5b24d;
+  font-size: 40px;
+}
+
+.card h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.card img {
+  min-width: 200px;
+  height: 80%;
+}
+
+.card:hover {
+  background-color: #f5b24d;
+  color: forestgreen;
+}
+
+.musetras {
+  margin-top: 50px;
+}
+
+/*MEDIA QUERIES*/
+/*PARA SMARTFONE*/
+@media (max-width: 768px) {
+  .descip {
+    max-width: 90%;
+  }
+  .carousel-inner h3 {
+    font-size: 30px;
+  }
+  .carousel-inner img {
+    width: 2200px;
+  }
+  .carousel-caption h3 {
+    font-size: 40px;
+  }
+  .carousel-caption p {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
