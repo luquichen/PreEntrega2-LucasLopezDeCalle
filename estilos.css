@@ -32,6 +32,10 @@ h3 {
   font-size: 60px;
 }
 
+h5 {
+  font-size: 40px;
+}
+
 /*STYLE CONTENEDOR*/
 .container {
   text-align: center;
@@ -155,6 +159,13 @@ footer i:hover {
 
 .musetras {
   margin-top: 50px;
+}
+
+.carousel-item h5 {
+  background-color: #f5b24d;
+}
+.carousel-item p {
+  background-color: #f5b24d;
 }
 
 /*MEDIA QUERIES*/

@@ -36,6 +36,9 @@ h2 {
 h3 {
     font-size: 60px;
 }
+h5{
+    font-size: 40px;
+}
 
 /*STYLE CONTENEDOR*/
 .container {
@@ -163,6 +166,16 @@ footer {
 
 .musetras {
     margin-top: 50px;
+}
+
+.carousel-item{
+    h5{
+        background-color: #f5b24d;
+    }
+    p{
+        background-color: #f5b24d;
+    }
+    
 }
 
 /*MEDIA QUERIES*/
